@@ -1,0 +1,96 @@
+html {
+  background-color: aqua;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html html {
+  background-color: aqua;
+  overflow-x: hidden;
+}
+
+.nav_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  background-color: orange;
+}
+
+.nav_bar .logo {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.nav_bar .nav_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav_bar .nav_items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav_bar .nav_items ul li {
+  word-spacing: 20px;
+}
+
+.nav_bar .nav_items ul li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav_bar .nav_items ul li button {
+  border: none;
+  background-color: black;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.nav_bar .nav_items ul li #home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav_bar .nav_items ul li .home_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav_bar .nav_items ul li .home_left img {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.nav_bar .nav_items ul li .home_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav_bar .nav_items ul li .home_right h2 {
+  color: brown;
+}
+/*# sourceMappingURL=main.css.map */
